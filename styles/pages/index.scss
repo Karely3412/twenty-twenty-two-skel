@@ -69,19 +69,43 @@
         }
       }
 
-      p {
-        width: 640px;
+      h6 {
         color: black;
         font-family: system-ui;
         font-weight: 300;
+        a {
+          color: black;
+          text-decoration: underline;
+        }
+      }
+
+      p {
+        width: 640px;
         font-size: 18px;
         line-height: 30px;
       }
+    }
+  }
 
-      .sub-title {
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 15% 4%;
+
+    .home-wrapper {
+      font-family: system-ui;
+      font-weight: 300;
+      a {
         color: black;
-        font-family: system-ui;
-        font-weight: 400;
+      }
+    }
+
+    .wordpress {
+      color: black;
+      font-family: system-ui;
+      font-weight: 300;
+      a {
+        color: black;
       }
     }
   }

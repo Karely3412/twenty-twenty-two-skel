@@ -59,16 +59,37 @@
   color: black;
   text-decoration: underline;
 }
-.index-container .mid-content-wrapper .content-wrapper p {
-  width: 640px;
+.index-container .mid-content-wrapper .content-wrapper h6 {
   color: black;
   font-family: system-ui;
   font-weight: 300;
+}
+.index-container .mid-content-wrapper .content-wrapper h6 a {
+  color: black;
+  text-decoration: underline;
+}
+.index-container .mid-content-wrapper .content-wrapper p {
+  width: 640px;
   font-size: 18px;
   line-height: 30px;
 }
-.index-container .mid-content-wrapper .content-wrapper .sub-title {
+.index-container .footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10% 15% 4%;
+}
+.index-container .footer-wrapper .home-wrapper {
+  font-family: system-ui;
+  font-weight: 300;
+}
+.index-container .footer-wrapper .home-wrapper a {
+  color: black;
+}
+.index-container .footer-wrapper .wordpress {
   color: black;
   font-family: system-ui;
-  font-weight: 400;
+  font-weight: 300;
+}
+.index-container .footer-wrapper .wordpress a {
+  color: black;
 }/*# sourceMappingURL=index.css.map */
