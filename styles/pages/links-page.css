@@ -60,11 +60,22 @@
   width: 640px;
   line-height: 30px;
 }
+.mid-content-wrapper .txt-container p a {
+  color: black;
+}
 .mid-content-wrapper .content-card-wrapper {
+  font-family: system-ui;
+  color: black;
   padding: 8% 32% 6% 0;
   border-bottom: 2px solid black;
   width: 320px;
   display: flex;
+}
+.mid-content-wrapper .content-card-wrapper .content-card-date {
+  margin-right: 28px;
+}
+.mid-content-wrapper .content-card-wrapper .theme-ad a {
+  color: black;
 }
 
 .footer-wrapper {
