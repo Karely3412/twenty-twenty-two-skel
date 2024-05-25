@@ -1,4 +1,4 @@
-.about-content-container {
+.links-page-container {
   .nav-bar-wrapper {
     display: flex;
     justify-content: space-evenly;
@@ -39,10 +39,15 @@
     }
   }
 }
+
 .mid-content-wrapper {
   padding: 8% 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   .entry-title-wrapper {
+    width: 94%;
     border-bottom: 2px solid black;
 
     h1 {
@@ -54,64 +59,26 @@
     }
   }
 
-  .entry-content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8% 20% 0;
-
+  .txt-container {
+    padding: 8% 20% 1%;
     p {
       font-size: 18px;
       font-family: system-ui;
       color: black;
-      font-weight: 200;
+      font-weight: 300;
       width: 640px;
       line-height: 30px;
     }
   }
 
   .content-card-wrapper {
-    font-family: system-ui;
-    color: black;
-    padding-left: 20%;
-
-    .title-wrapper {
-      h1 {
-        width: 640px;
-        font-size: 40px;
-        font-weight: 100;
-      }
-    }
-
-    .list-wrapper {
-      width: 745px;
-      font-size: 20px;
-      color: black;
-      font-weight: 200;
-
-      a {
-        font-size: 20px;
-        color: black;
-        font-weight: 200;
-      }
-    }
-
-    .reply-wrapper {
-      color: black;
-      font-weight: 200;
-      padding: 1% 5%;
-
-      h1 {
-        font-size: 40px;
-        font-weight: 100;
-      }
-
-      a {
-        color: black;
-      }
-    }
+    padding: 8% 32% 6% 0;
+    border-bottom: 2px solid black;
+    width: 320px;
+    display: flex;
   }
 }
+
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
