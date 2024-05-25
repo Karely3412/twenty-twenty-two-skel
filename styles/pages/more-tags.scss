@@ -79,13 +79,26 @@
   .content-card-wrapper {
     font-family: system-ui;
     color: black;
-    padding: 8% 32% 6% 0;
-    border-bottom: 2px solid black;
-    width: 320px;
+    padding: 8% 0% 0 0;
+    width: 65%;
     display: flex;
 
     .content-card-date {
-      margin-right: 28px;
+      display: flex;
+      width: 100%;
+      border-bottom: 2px solid black;
+      align-items: center;
+      padding-bottom: 10%;
+
+      p {
+        width: 20%;
+      }
+
+      a {
+        font-family: system-ui;
+        color: black;
+        width: 20%;
+      }
     }
 
     .theme-ad {

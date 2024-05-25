@@ -66,13 +66,24 @@
 .mid-content-wrapper .content-card-wrapper {
   font-family: system-ui;
   color: black;
-  padding: 8% 32% 6% 0;
-  border-bottom: 2px solid black;
-  width: 320px;
+  padding: 8% 0% 0 0;
+  width: 65%;
   display: flex;
 }
 .mid-content-wrapper .content-card-wrapper .content-card-date {
-  margin-right: 28px;
+  display: flex;
+  width: 100%;
+  border-bottom: 2px solid black;
+  align-items: center;
+  padding-bottom: 10%;
+}
+.mid-content-wrapper .content-card-wrapper .content-card-date p {
+  width: 20%;
+}
+.mid-content-wrapper .content-card-wrapper .content-card-date a {
+  font-family: system-ui;
+  color: black;
+  width: 20%;
 }
 .mid-content-wrapper .content-card-wrapper .theme-ad a {
   color: black;
@@ -97,4 +108,4 @@
 }
 .footer-wrapper .wordpress-wrapper a {
   color: black;
-}/*# sourceMappingURL=links-page.css.map */
+}/*# sourceMappingURL=more-tags.css.map */
