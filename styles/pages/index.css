@@ -1,31 +1,31 @@
-.index-container .nav-container {
+.index-container .nav-bar-wrapper {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: black;
   height: 180px;
 }
-.index-container .nav-container a {
+.index-container .nav-bar-wrapper a {
   font-family: system-ui;
   color: black;
   font-size: 12px;
   font-weight: 100;
 }
-.index-container .nav-container .home-wrapper {
+.index-container .nav-bar-wrapper .home-wrapper {
   width: 490px;
 }
-.index-container .nav-container .home-wrapper i a {
+.index-container .nav-bar-wrapper .home-wrapper i a {
   font-family: system-ui;
   color: white;
   font-size: 18px;
   font-weight: 100;
 }
-.index-container .nav-container .top-right-content-wrapper {
+.index-container .nav-bar-wrapper .top-right-content-wrapper {
   width: 200px;
   display: flex;
   justify-content: space-between;
 }
-.index-container .nav-container .top-right-content-wrapper a {
+.index-container .nav-bar-wrapper .top-right-content-wrapper a {
   text-decoration: none;
   font-family: system-ui;
   color: white;

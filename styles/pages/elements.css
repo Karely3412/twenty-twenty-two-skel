@@ -1,0 +1,123 @@
+.elements-container .nav-bar-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 180px;
+}
+.elements-container .nav-bar-wrapper a {
+  font-family: system-ui;
+  color: black;
+  font-size: 12px;
+  font-weight: 100;
+}
+.elements-container .nav-bar-wrapper .home-wrapper {
+  width: 490px;
+}
+.elements-container .nav-bar-wrapper .home-wrapper i a {
+  font-family: system-ui;
+  color: black;
+  font-size: 18px;
+  font-weight: 100;
+}
+.elements-container .nav-bar-wrapper .top-right-content-wrapper {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.elements-container .nav-bar-wrapper .top-right-content-wrapper a {
+  text-decoration: none;
+  font-family: system-ui;
+  color: black;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.mid-content-wrapper {
+  padding: 8% 13%;
+  font-family: system-ui;
+  color: black;
+}
+.mid-content-wrapper .entry-title-wrapper {
+  width: 94%;
+  border-bottom: 2px solid black;
+}
+.mid-content-wrapper .entry-title-wrapper h1 {
+  font-size: 40px;
+  margin-bottom: 80px;
+  font-family: system-ui;
+  color: black;
+  font-weight: 100;
+}
+.mid-content-wrapper .styling-padding-wrapper {
+  padding: 10% 18%;
+}
+.mid-content-wrapper .styling-padding-wrapper a {
+  color: black;
+}
+.mid-content-wrapper .styling-padding-wrapper .content-card-wrapper p {
+  font-size: 18px;
+  width: 648px;
+  line-height: 30px;
+}
+.mid-content-wrapper .styling-padding-wrapper .headers-wrapper {
+  font-size: 45px;
+  font-weight: 100;
+}
+.mid-content-wrapper .styling-padding-wrapper .scroll-to-main {
+  padding-bottom: 2%;
+}
+.mid-content-wrapper .styling-padding-wrapper .content-items-wrapper h2 {
+  font-size: 45px;
+  font-weight: 100;
+}
+.mid-content-wrapper .styling-padding-wrapper .content-items-wrapper p {
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.mid-content-wrapper .styling-padding-wrapper .li-wrapper h1 {
+  font-size: 45px;
+  font-weight: 100;
+}
+.mid-content-wrapper .styling-padding-wrapper .li-wrapper ol {
+  line-height: 30px;
+}
+.mid-content-wrapper .styling-padding-wrapper .li-wrapper ul {
+  line-height: 30px;
+}
+.mid-content-wrapper .styling-padding-wrapper .forms-wrapper {
+  font-weight: 300;
+  line-height: 30px;
+}
+.mid-content-wrapper .styling-padding-wrapper .forms-wrapper h1 {
+  font-size: 45px;
+  font-weight: 100;
+}
+.mid-content-wrapper .styling-padding-wrapper .tables-wrapper h1 {
+  font-size: 45px;
+  font-weight: 100;
+}
+.mid-content-wrapper .styling-padding-wrapper .tables-wrapper table {
+  padding: 0px 17% 2%;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10% 15% 4%;
+}
+.footer-wrapper .home-wrapper {
+  font-family: system-ui;
+  font-weight: 300;
+}
+.footer-wrapper .home-wrapper a {
+  color: black;
+}
+.footer-wrapper .wordpress-wrapper {
+  color: black;
+  font-family: system-ui;
+  font-weight: 300;
+}
+.footer-wrapper .wordpress-wrapper a {
+  color: black;
+}/*# sourceMappingURL=elements.css.map */
